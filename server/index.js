@@ -7,10 +7,10 @@ app.use(cors());
 app.use(expess.json());
 
 const db = mysql.createConnection({
-    host:"localhost",
-    user:"root",
-    password:"",
-    database:"empleados_crud"
+    host:"database-electiva.cr2iu0swgrdw.us-east-2.rds.amazonaws.com",
+    user:"admin",
+    password:"12345678",
+    database:"electiva"
 });
 
 
